@@ -1,0 +1,8 @@
+{
+  "pathAlias.aliasMap": {
+    // key是你要定义的别名 | 使用${cwd}来代替当前工作目录的绝对路径
+    "@": "${cwd}/src",
+    "~": "${cwd}/src",
+    "components": "${cwd}/src/components"
+  }
+}
