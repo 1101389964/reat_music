@@ -124,4 +124,20 @@ export const HeaderRright = styled.div`
       color: #fff;
     }
   }
+  .headImg {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    img {
+      border-radius: 15px;
+    }
+  }
+  .resgister {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
 `;

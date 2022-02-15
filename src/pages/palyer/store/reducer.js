@@ -3,9 +3,9 @@ import { Map } from "immutable"; //导入immutable中的map优化性能
 import * as actionType from "./constants";
 
 const defaultState = Map({
-  currentSong: {},
-  currentSongIndex: 0,
-  playList: [],
+  currentSong: {}, //当前歌曲
+  currentSongIndex: 0, //歌曲索引，列表中第几个
+  playList: [], //播放列表
   currentLyrics: [], //歌词
   currentLyricsIndex: 0, //当前歌词的索引
 });

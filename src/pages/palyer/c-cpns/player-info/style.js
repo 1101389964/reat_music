@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const InfoWrapper = styled.div`
   display: flex;
   padding: 47px 30px 40px 39px;
-`
+`;
 
 export const InfoLeft = styled.div`
   width: 206px;
@@ -42,7 +42,7 @@ export const InfoLeft = styled.div`
       text-decoration: underline;
     }
   }
-`
+`;
 
 export const InfoRight = styled.div`
   width: 414px;
@@ -65,7 +65,8 @@ export const InfoRight = styled.div`
     }
   }
 
-  .singer, .album {
+  .singer,
+  .album {
     margin: 10px;
 
     a {
@@ -95,8 +96,8 @@ export const InfoRight = styled.div`
         height: 8px;
         right: -8px;
         top: 2px;
-        background-position: ${props => props.isSpread ? "-45px": "-65px"} -520px;
+        background-position: ${(props) => (props.isSpread ? "-45px" : "-65px")} -520px;
       }
     }
   }
-`
+`;

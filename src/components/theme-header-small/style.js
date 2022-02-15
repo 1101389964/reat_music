@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
   display: flex;
@@ -10,5 +10,4 @@ export const HeaderWrapper = styled.div`
   h3 {
     font-size: 12px;
   }
-`
-
+`;

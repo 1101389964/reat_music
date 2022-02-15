@@ -44,7 +44,7 @@ export const getCurrentSongAction = (ids) => {
         getLyric(res.songs[0].id).then((res) => {
           let lyric = res.lrc.lyric;
           lyric = parseLyric(lyric);
-          console.log(lyric);
+          // console.log(lyric);
           dispatch(changeLyricsAction(lyric));
         });
       });

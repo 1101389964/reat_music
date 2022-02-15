@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const PlayerSongsWrapper = styled.div`
   .songs {
@@ -31,4 +31,4 @@ export const PlayerSongsWrapper = styled.div`
       }
     }
   }
-`
+`;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const RelevantWrapper = styled.div`
   margin-top: 40px;
@@ -42,4 +42,4 @@ export const RelevantWrapper = styled.div`
       }
     }
   }
-`
+`;

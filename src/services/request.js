@@ -9,11 +9,6 @@ const instance = axios.create({
 
 instance.interceptors.request.use(
   (config) => {
-    //1发送网络请求时，在页面中间显示Loading组件
-
-    //2用户必须携带token，如果没有携带，那么直接跳转到登录界面
-
-    //3.parmas/data序列化操作
     return config;
   },
   //第二个回调函数为请求失败时执行

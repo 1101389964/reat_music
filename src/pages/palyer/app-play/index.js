@@ -45,7 +45,7 @@ export default memo(function AppPlay() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getCurrentSongAction(1846489646));
+    dispatch(getCurrentSongAction(346089));
   }, [dispatch]);
 
   //当组件生产会执行以下步骤：1.获取歌曲 2.播放歌曲

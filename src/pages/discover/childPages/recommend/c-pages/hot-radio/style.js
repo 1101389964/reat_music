@@ -32,5 +32,4 @@ export const HotRadioWrapper = styled.div`
       }
     }
   }
-`
-
+`;

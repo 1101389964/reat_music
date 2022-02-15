@@ -4,11 +4,15 @@ import { combineReducers } from "redux-immutable";
 
 import recommendReducer from "@/pages/discover/childPages/recommend/store";
 import playerReducer from "@/pages/palyer/store/index.js";
+import accountReducer from "@/components/resgister-cmp/store/index.js";
+import searchReducer from "@/pages/search/store/index.js";
 
 //该文件是合成各个redcer的文件
 const combineReducer = combineReducers({
   recommend: recommendReducer,
   player: playerReducer,
+  account: accountReducer,
+  search: searchReducer,
 });
 
 export default combineReducer;

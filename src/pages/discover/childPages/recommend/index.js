@@ -4,7 +4,6 @@ import { MainContent, RightContent, LeftContent } from "./style";
 
 import TopBanner from "./c-pages/top-banners";
 import HotRcm from "./c-pages/hot-recommend";
-import PersonalRcm from "./c-pages/personal-recommend";
 import NewRcm from "./c-pages/new-recommend";
 import ListRcm from "./c-pages/list-recommend";
 import UserLogin from "./c-pages/user-login";
@@ -18,7 +17,6 @@ export default memo(function Recommend(props) {
       <MainContent className="wrap-v2">
         <LeftContent>
           <HotRcm />
-          <PersonalRcm />
           <NewRcm />
           <ListRcm />
         </LeftContent>
